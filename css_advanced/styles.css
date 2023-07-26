@@ -37,6 +37,11 @@ header a {
     color: #FFFFFF;
 }
 
+.round-photo {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #banner-section {
     color: #FFFFFF;
     background-color: grey;
