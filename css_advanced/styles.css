@@ -2,6 +2,9 @@ body {
     width: 1440px;
     margin: 0;
     padding: 0;
+
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
 }
 
 header {
@@ -12,7 +15,6 @@ header {
     margin-top: 35.02px;
 
     color: #FFFFFF;
-    background-color: grey;
 }
 
 #header-div {
@@ -37,25 +39,30 @@ header a {
     color: #FFFFFF;
 }
 
-.round-photo {
+.round-edge {
     object-fit: cover;
     border-radius: 50%;
 }
 
 #banner-section {
     color: #FFFFFF;
-    background-color: grey;
-
     text-align: center;
 
     padding-top: 220px;
+}
+
+#banner-section * {
+    margin: 0;
+}
+
+#banner-register-button {
+    margin-top: 38px;
 }
 
 h1 {
     font-family: "Source Sans Pro";
     font-size: 120px;
     line-height: 150.84px;
-    text-align: center;
 }
 
 #banner-section h2 {
@@ -78,7 +85,7 @@ h1 {
     margin-bottom: 87px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
 }
 
@@ -90,10 +97,16 @@ h1 {
     color: #FFFFFF;
     background-color: #C271FF;
 
+    box-shadow: #000000;
+    box-shadow: 20px;
+
     width: 162px;
     height: 44px;
 
-    align-self: center;
+    border: none;
+    border-radius: 22px;
+
+    margin: auto;
 }
 
 #quote-section {
