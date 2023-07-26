@@ -1,4 +1,15 @@
+body {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
 header {
+    width: 1103.41px;
+    height: 29.46px;
+
+    margin: auto;
+
     color: #FFFFFF;
     background-color: grey;
 }
@@ -6,9 +17,12 @@ header {
 #header-div {
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 #header-menu {
+    width: 234px;
+    height: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -22,6 +36,15 @@ header a {
     color: #FFFFFF;
 }
 
+#banner-section {
+    color: #FFFFFF;
+    background-color: grey;
+
+    text-align: center;
+
+    padding-top: 220px;
+}
+
 h1 {
     font-family: "Source Sans Pro";
     font-size: 120px;
@@ -29,57 +52,176 @@ h1 {
     text-align: center;
 }
 
-#pros-div {
-    display: flex;
-    justify-content: space-around;
+#banner-section h2 {
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40.22px;
+    color: #FFFFFF;
 }
 
-#pros-div div {
+#pros-div {
+    margin-top: 168px;
+}
+
+#pros-quotes-div {
+    width: 1009px;
+    height: 237px;
+
+    margin-top: 87px;
+    margin-bottom: 87px;
+
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#pros-quotes-div div {
     text-align: center;
 }
 
 .register-button {
     color: #FFFFFF;
+    background-color: #C271FF;
+
     width: 162px;
     height: 44px;
-    background-color: #C271FF;
+
+    align-self: center;
 }
 
 #quote-section {
+    height: 392px;
+
+    color: #FFFFFF;
     background-color: #C271FF;
+
+    display: flex;
+    align-items: center;
+
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
 }
 #quote-section div {
     display: flex;
+    width: 943px;
+    height: 160px;
+    margin: auto;
+    justify-content: space-between;
+}
+#quote-section * {
+    margin: 0px;
+    padding: 0px;
+}
+#quote-section blockquote {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+}
+#quote-section figure {
+    margin: 0px;
+    text-align: left;
+    width: 730px;
+    height: 158px;
+}
+#quote-section cite {
+    font-weight: 700;
+    font-style: normal;
+}
+#quote-section figcaption {
+    font-style: italic;
 }
 
 #videos-section {
     text-align: center;
+
+    color: #071629;
+
+    width: 1228px;
+    height: 450px;
+    margin: auto;
+    margin-top: 87px;
+    margin-bottom: 87px;
+}
+#videos-section h2 {
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.22px;
 }
 #videos-block {
     display: flex;
     justify-content: space-around;
+    margin-top: 115px;
+    text-align: left;
+}
+.video-block {
+    width: 255px;
+    height: 335px;
+}
+.video-block h3 {
+    color: #071629;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.11px;
+
+    margin-left: 13px;
+}
+.video-block p {
+    color: #071629;
+
+    margin-left: 13px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 #membership-section {
     color: #FFFFFF;
     background-color: #071629;
     text-align: center;
+
+    height: 502px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+#membership-section h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40.22px;
+}
+
+.membership {
+    width: 257px;
+    height: 153px;
+}
 #memberships-list {
     display: flex;
     justify-content: space-around;
 }
 
 #FAQ-section {
-    text-align: center;
+    margin-top: 67px;
+
+    color: #071629;
+}
+#FAQ-section * {
+    margin: 0px;
 }
 
 #FAQ-section h2 {
-    font-family: "Source Sans Pro";
     font-weight: 300px;
     font-size: 60px;
     line-height: 75.42px;
+
+    align-self: center;
 }
 
 .FAQ-row-block {
@@ -87,17 +229,41 @@ h1 {
     justify-content: space-around;
 }
 
+.FAQ-item-block {
+    width: 350px;
+    height: 242px;
+}
+
 .FAQ-item-block h3 {
-    color: #071629;
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.11px;
 }
 
 .FAQ-item-block p {
-    color: #07162980;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 footer {
+    height: 249px;
+
     background-color: #071629;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#footer-sites {
+    width: 130px;
+
+    display: flex;
+    justify-content: space-between;
 }
 #footer-row-block {
     display: flex;
@@ -105,7 +271,6 @@ footer {
 }
 
 #footer-copyright {
-    font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 12px;
     line-height: 15.08px;
