@@ -9,6 +9,7 @@ header {
     height: 29.46px;
 
     margin: auto;
+    margin-top: 35.02px;
 
     color: #FFFFFF;
     background-color: grey;
@@ -115,11 +116,6 @@ h1 {
     margin: 0px;
     padding: 0px;
 }
-#quote-section blockquote {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33.6px;
-}
 #quote-section figure {
     margin: 0px;
     text-align: left;
@@ -141,20 +137,26 @@ h1 {
 
     width: 1228px;
     height: 450px;
+
     margin: auto;
     margin-top: 87px;
     margin-bottom: 87px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #videos-section h2 {
+    margin: 0;
+
     font-family: "Source Sans Pro";
-    font-weight: 700;
+    font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
 }
 #videos-block {
     display: flex;
     justify-content: space-around;
-    margin-top: 115px;
     text-align: left;
 }
 .video-block {
@@ -173,11 +175,17 @@ h1 {
 .video-block p {
     color: #071629;
 
+    height: 48px;
+
     margin-left: 13px;
+    margin-right: 0;
 
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+.author-block h4 {
+    color: #C271FF;
 }
 
 #membership-section {
@@ -208,9 +216,20 @@ h1 {
 }
 
 #FAQ-section {
+    margin: auto;
     margin-top: 67px;
+    margin-bottom: 84px;
+
+    width: 920px;
+    height: 707px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     color: #071629;
+
+    font-family: "Source Sans Pro";
 }
 #FAQ-section * {
     margin: 0px;
@@ -232,9 +251,13 @@ h1 {
 .FAQ-item-block {
     width: 350px;
     height: 242px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.FAQ-item-block h3 {
+.FAQ-question {
     margin-bottom: 30px;
 
     font-weight: 700;
@@ -242,7 +265,7 @@ h1 {
     line-height: 20.11px;
 }
 
-.FAQ-item-block p {
+.FAQ-answer {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
