@@ -216,9 +216,12 @@ h1 {
     font-size: 14px;
     line-height: 24px;
 }
+.author-block {
+    display: flex;
+    align-items: center;
+}
 .author-block h4 {
     color: #C271FF;
-
 }
 
 #membership-section {
