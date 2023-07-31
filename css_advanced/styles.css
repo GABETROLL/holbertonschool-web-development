@@ -130,24 +130,30 @@ h1 {
     font-size: 22px;
     line-height: 33.6px;
 }
-#quote-section div {
-    display: flex;
+#quote-div {
     width: 943px;
     height: 160px;
+
     margin: auto;
+
+    display: flex;
     justify-content: space-between;
 }
-#quote-section * {
-    margin: 0px;
-    padding: 0px;
-}
-#quote-section figure {
-    margin: 0px;
-    text-align: left;
-    width: 730px;
-    height: 158px;
+
+#quote-div * {
+    margin: 0;
 }
 
+#quote-section figure {
+    width: 730px;
+    height: 158px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: left;
+}
 #quote-section cite {
     font-weight: 700;
     font-style: normal;
