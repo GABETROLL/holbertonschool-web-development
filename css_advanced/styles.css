@@ -22,8 +22,10 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url("../images/background.png");
+    background-image: url("./images/background.png");
     background-repeat: no-repeat;
+
+    font-family: 'Source Sans Pro';
 }
 
 header {
@@ -50,7 +52,6 @@ header {
 }
 
 header a {
-    font-family: "Source Sans Pro";
     font-weight: 700;
     font-size: 12px;
     line-height: 15.08px;
@@ -79,7 +80,6 @@ header a {
 }
 
 h1 {
-    font-family: "Source Sans Pro";
     font-size: 120px;
     line-height: 150.84px;
 }
@@ -90,7 +90,6 @@ h1 {
 }
 
 #banner-section h2 {
-    font-family: "Source Sans Pro";
     font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
@@ -144,7 +143,6 @@ h1 {
     display: flex;
     align-items: center;
 
-    font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 22px;
     line-height: 33.6px;
@@ -200,7 +198,6 @@ h1 {
 #videos-section h2 {
     margin: 0;
 
-    font-family: "Source Sans Pro";
     font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
@@ -292,8 +289,6 @@ h1 {
     justify-content: space-between;
 
     color: #071629;
-
-    font-family: "Source Sans Pro";
 }
 
 #FAQ-section * {
