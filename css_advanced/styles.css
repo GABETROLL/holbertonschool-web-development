@@ -189,10 +189,6 @@ h1 {
     color: #FFFFFF;
     background-color: #C271FF;
 
-    display: flex;
-    align-items: center;
-
-    font-weight: normal;
     font-size: 22px;
     line-height: 33.6px;
 }
@@ -200,7 +196,9 @@ h1 {
     width: 943px;
     height: 160px;
 
-    margin: auto;
+    position: relative;
+    left: 260px;
+    top: 108px;
 
     display: flex;
     justify-content: space-between;
@@ -260,8 +258,9 @@ h2 span {
     margin: 0;
 }
 #videos-block {
+    padding: 58px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
 }
 .video-block {
@@ -307,18 +306,37 @@ h2 span {
 
     height: 502px;
 
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 52px;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+#membership-section * {
+    box-sizing: content-box;
+}
+
+#membership-section h2 {
+    margin: 0;
+}
+
+#memberships-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 164px 85px 164px;
 }
 
 .membership {
     width: 257px;
     height: 153px;
-}
-#memberships-list {
+
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.membership * {
+    margin: 0 auto;
 }
 
 .membership h3 {
@@ -329,7 +347,6 @@ h2 span {
 
 .membership p {
     width: 215px;
-    margin: auto;
 
     font-weight: normal;
     font-size: 14px;
