@@ -228,6 +228,18 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40.22px;
+}
+
+h2 span {
+    color: #C271FF;
+
+    font-weight: bold;
+}
+
 #videos-section {
     text-align: center;
 
@@ -246,10 +258,6 @@ h1 {
 }
 #videos-section h2 {
     margin: 0;
-
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 40.22px;
 }
 #videos-block {
     display: flex;
@@ -302,12 +310,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-#membership-section h2 {
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 40.22px;
 }
 
 .membership {
