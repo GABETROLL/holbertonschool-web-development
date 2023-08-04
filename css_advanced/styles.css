@@ -299,6 +299,19 @@ h2 span {
     line-height: 27px;
 }
 
+.rating-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-block span {
+    color: #C271FF;
+    font-weight: 600;
+    size: 14px;
+    line-height: 27px;
+}
+
 #membership-section {
     color: #FFFFFF;
     background-color: #071629;
