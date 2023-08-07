@@ -178,8 +178,7 @@ h1 {
     font-size: 14px;
     font-weight: 600;
 
-    box-shadow: #000000;
-    box-shadow: 20px;
+    box-shadow: 0px 0px 20px 0px #000000;
 
     width: 162px;
     height: 44px;
@@ -198,6 +197,11 @@ h1 {
     top: 0;
     left: 0;
     z-index: -1;
+}
+#banner-background * {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 #quote-section {
