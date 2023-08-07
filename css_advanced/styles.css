@@ -89,9 +89,13 @@ header a {
 
 #banner-section {
     color: #FFFFFF;
+    /* background-color: #071629; */
+
     text-align: center;
 
     padding-top: 220px;
+
+    height: max-content;
 }
 
 #banner-section * {
@@ -128,7 +132,7 @@ h1 {
     height: 364.37px;
 
     margin-top: 168px;
-    margin-bottom: 98px;
+    padding-bottom: 98px;
 
     display: flex;
     flex-direction: column;
