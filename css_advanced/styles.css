@@ -134,7 +134,14 @@ h1 {
 }
 
 #pros-div {
+    height: 364.37px;
+
     margin-top: 168px;
+    margin-bottom: 98px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #pros-div h2 {
@@ -147,19 +154,20 @@ h1 {
     width: 1009px;
     height: 237px;
 
-    margin-top: 87px;
-    margin-bottom: 87px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     display: flex;
     justify-content: space-between;
-    margin: auto;
 
     font-style: italic;
     font-weight: normal;
 }
 
-#pros-quotes-div div {
+#pros-quote-div {
     text-align: center;
+    width: max-content;
 }
 
 .pros-quote-author {
