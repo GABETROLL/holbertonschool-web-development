@@ -96,6 +96,8 @@ header a {
     background-repeat: no-repeat;
     color: #FFFFFF;
     text-align: center;
+
+    padding-bottom: 104px;
 }
 
 #banner-section * {
@@ -108,11 +110,11 @@ header a {
     box-shadow: 0px 0px 20px 0px #000000;
 }
 
-h1 {
+#banner-section h1 {
     font-size: 120px;
     line-height: 150.84px;
 
-    margin-top: 220px;
+    padding-top: 220px;
 }
 
 #subtitle {
