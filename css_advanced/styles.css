@@ -114,13 +114,15 @@ h1 {
 }
 
 #subtitle {
+    width: 253px;
+    margin: auto;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     font-size: 16px;
     font-weight: bold;
     line-height: 20.11px;
-
 }
 
 #banner-section h2 {
