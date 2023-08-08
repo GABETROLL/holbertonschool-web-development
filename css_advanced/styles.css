@@ -290,6 +290,17 @@ h2 span {
     width: 255px;
     height: 335px;
 }
+.video-block * {
+    margin: 0px;
+}
+.video-block > * {
+    margin: 0px 0px 0px 13px;
+}
+
+.video-block > img {
+    margin-left: 0px;
+    margin-bottom: 18px;
+}
 .video-block h3 {
     color: #071629;
 
@@ -297,15 +308,13 @@ h2 span {
     font-size: 16px;
     line-height: 20.11px;
 
-    margin-left: 13px;
+    margin-bottom: 7.6px;
 }
 .video-block p {
     color: #071629;
 
     height: 48px;
-
-    margin-left: 13px;
-    margin-right: 0;
+    margin-bottom: 13px;
 
     font-weight: normal;
     font-size: 14px;
@@ -314,12 +323,17 @@ h2 span {
 .author-block {
     display: flex;
     align-items: center;
+
+    margin-bottom: 14px;
 }
 .author-block h4 {
     color: #C271FF;
+
     font-weight: 600;
     font-size: 14px;
     line-height: 27px;
+
+    margin-left: 13px;
 }
 
 .rating-block {
