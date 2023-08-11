@@ -88,16 +88,13 @@ header a {
 }
 
 #banner-section {
+    background-color: #071629;
     background-image: url("images/background.png");
-    max-width: 100%;
-    height: 100vh;
+
     background-position-x: center;
-    background-size: cover;
     background-repeat: no-repeat;
     color: #FFFFFF;
     text-align: center;
-
-    padding-bottom: 104px;
 }
 
 #banner-section * {
