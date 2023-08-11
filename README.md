@@ -1,5 +1,2 @@
-# holbertonschool-web-development
-## Projects
-``html_advanced/`` and ``css_advanced/``: Attempt to copy [this website](https://intranet.hbtn.io/rltoken/lhaBvvfXnyGKs9bRxokWtQ) as closely as possible, with some specific instructions by Holberton
-``sass_scss``: Learn to use the basic features of [SASS](https://sass-lang.com/), with some CSS knowledge
-``developer_tools``: Learn to use the [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+# Creating a static HTML + CSS website using a Figma File
+Figma file: https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design
