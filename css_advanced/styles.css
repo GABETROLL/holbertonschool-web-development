@@ -112,10 +112,14 @@ header a {
     z-index: 0;
     filter: grayscale(100%);
 }
-#banner-filter {
-    position: absolute;
 
-    z-index: 1;
+#banner-background:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
     background: linear-gradient(to bottom, #07162900, #071629FF);
 }
 
