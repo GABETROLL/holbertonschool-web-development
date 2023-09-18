@@ -2,7 +2,7 @@
 
 Figma file: https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design
 
-This project's goal is to recreate a website from that Figma file, by making a **static** site. The buttons and links __shouldn't__ trigger anything.
+This project's goal is to recreate a website from that Figma file, by making a **static** site, **with no previous code**, **with the help of Holberton. The buttons and links __shouldn't__ trigger anything.
 
 This repository consists of two propjects.
 

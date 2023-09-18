@@ -1,6 +1,6 @@
 # Figma Smiles Website Project - CSS
 
-The goal of this project is to recreate [this Figma file](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design), by making a static site.
+The goal of this project is to recreate [this Figma file](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design), by making a **static** site **with no previous code**, with help from Holberton.
 
 First, we were supposed to create ``../html_advanced/index.html``, which would be an HTML-only version of the Figma site.
 

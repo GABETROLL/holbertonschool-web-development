@@ -1,5 +1,5 @@
 # Recreating a Website from a Figma File - HTML only
-In this project, we'll try to make a **static** webpage using [this Figma file](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design).
+In this project, we'll try to make a **static** webpage **with no previous code**, **with the help of Holberton**, following [this Figma file](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design).
 
 First, in this folder (``html_advanved/``), we'll make an HTML skeleton of that webpage. Then, in ``project root/css_advanced/``, we'll add CSS to it.
 
