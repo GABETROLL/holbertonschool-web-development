@@ -44,8 +44,19 @@ body {
     width: 1440px;
     margin: 0;
     padding: 0;
+}
 
+* {
     font-family: 'Source Sans Pro';
+}
+
+:root {
+    --purple: #C271FF;
+}
+
+.bold-text {
+    color: var(--purple);
+    font-weight: bold;
 }
 
 header {
@@ -124,7 +135,6 @@ header a {
 }
 
 #banner-register-button {
-    background-color: #C271FF;
     margin-top: 38px;
 
     box-shadow: 0px 0px 20px 0px #000000;
@@ -201,7 +211,7 @@ header a {
 
 .register-button {
     color: #FFFFFF;
-    background-color: #C271FF;
+    background-color: var(--purple);
 
     font-size: 14px;
     font-weight: 600;
@@ -221,7 +231,7 @@ header a {
     height: 392px;
 
     color: #FFFFFF;
-    background-color: #C271FF;
+    background-color: var(--purple);
 
     font-size: 22px;
     line-height: 33.6px;
@@ -264,12 +274,6 @@ h2 {
     font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
-}
-
-h2 span {
-    color: #C271FF;
-
-    font-weight: bold;
 }
 
 #videos-section {
@@ -338,7 +342,7 @@ h2 span {
     margin-bottom: 14px;
 }
 .author-block h4 {
-    color: #C271FF;
+    color: var(--purple);
 
     font-weight: 600;
     font-size: 14px;
@@ -354,7 +358,7 @@ h2 span {
 }
 
 .rating-block span {
-    color: #C271FF;
+    color: var(--purple);
     font-weight: 600;
     size: 14px;
     line-height: 27px;
