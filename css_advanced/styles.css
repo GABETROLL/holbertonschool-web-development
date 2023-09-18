@@ -193,20 +193,20 @@ header a {
 
     display: flex;
     justify-content: space-between;
-
-    font-style: italic;
-    font-weight: normal;
 }
 
-#pros-quote-div {
-    text-align: center;
-    width: max-content;
-}
+.pro-quote-author {
+    font-style: normal;
 
-.pros-quote-author {
     font-size: 18px;
     line-height: 27px;
     font-weight: 900;
+}
+.pro-quote {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 24px;
 }
 
 .register-button {
@@ -226,6 +226,8 @@ header a {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* QUOTES SECTION */
 
 #quote-section {
     height: 392px;
@@ -252,7 +254,7 @@ header a {
     margin: 0;
 }
 
-#quote-section figure {
+#quote-text {
     width: 730px;
     height: 158px;
 
@@ -262,11 +264,11 @@ header a {
 
     text-align: left;
 }
-#quote-section cite {
+#quote-author {
     font-weight: bold;
     font-style: normal;
 }
-#quote-section figcaption {
+#quote-author-profession {
     font-style: italic;
 }
 
