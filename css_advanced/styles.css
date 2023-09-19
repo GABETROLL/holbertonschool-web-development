@@ -48,6 +48,7 @@ body {
 
 * {
     font-family: 'Source Sans Pro';
+    margin: 0;
 }
 
 :root {
@@ -237,14 +238,15 @@ header a {
 
     font-size: 22px;
     line-height: 33.6px;
+
+    display: flex;
 }
 #quote-div {
     width: 943px;
     height: 160px;
 
-    position: relative;
-    left: 260px;
-    top: 108px;
+    align-self: center;
+    margin: auto;
 
     display: flex;
     justify-content: space-between;
@@ -272,7 +274,7 @@ header a {
     font-style: italic;
 }
 
-h2 {
+section > h1 {
     font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
