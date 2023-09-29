@@ -238,6 +238,9 @@ header a {
     width: 162px;
     height: 44px;
 
+    margin: 0px;
+    padding: 0px;
+
     border: none;
     border-radius: 22px;
 
@@ -422,32 +425,33 @@ header a {
     box-sizing: content-box;
 }
 
-#membership-section h2 {
-    margin: 0;
-}
-
 #memberships-list {
     display: flex;
     justify-content: space-between;
-    padding: 58px 164px 85px 164px;
+    gap: 28px;
+
+    margin: 58px auto 85px;
 }
 
 .membership {
     width: 257px;
     height: 153px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .membership * {
     margin: 0 auto;
 }
 
-.membership h3 {
+.membership img {
+    height: 35.35px;
+    margin-bottom: 26.62px;
+}
+
+.membership-title {
     font-weight: 600;
     size: 18px;
     line-height: 26px;
+
+    margin-bottom: 13px;
 }
 
 .membership p {
@@ -514,7 +518,7 @@ header a {
 }
 
 .FAQ-answer {
-    opacity: 50.16%;
+    color: var(--transparent-black);
 
     font-weight: normal;
     font-size: 14px;
