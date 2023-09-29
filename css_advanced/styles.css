@@ -40,7 +40,10 @@
     font-weight: 900;
 }
 
+/* REVIEWED UP TO EXERCISE 1 */
+
 body {
+    background-color: var(--white);
     width: 1440px;
     margin: 0;
     padding: 0;
@@ -53,6 +56,14 @@ body {
 
 :root {
     --purple: #C271FF;
+    --white: #FFFFFF;
+    --black: #071629;
+}
+
+section h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40.22px;
 }
 
 .bold-text {
@@ -66,7 +77,7 @@ header {
     position: absolute;
     top: 35.02px;
 
-    color: #FFFFFF;
+    color: var(--white);
 
     z-index: 1;
 }
@@ -84,8 +95,11 @@ header {
 #header-menu {
     width: 234px;
     height: 15px;
+
     display: flex;
     justify-content: space-between;
+
+    text-align: center;
 }
 
 header a {
@@ -93,7 +107,7 @@ header a {
     font-size: 12px;
     line-height: 15.08px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .round-edge {
@@ -102,8 +116,8 @@ header a {
 }
 
 #banner-section {
-    background-color: #071629;
-    color: #FFFFFF;
+    background-color: var(--black);
+    color: var(--white);
     text-align: center;
 }
 
@@ -114,6 +128,7 @@ header a {
     position: relative;
     z-index: 1;
 }
+
 #banner-background {
     position: absolute;
     top: 0;
@@ -144,6 +159,7 @@ header a {
 #banner-section h1 {
     font-size: 120px;
     line-height: 150.84px;
+    font-weight: 700;
 
     padding-top: 220px;
 }
@@ -164,7 +180,7 @@ header a {
     font-weight: 300;
     font-size: 32px;
     line-height: 40.22px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 #pros-div {
@@ -211,7 +227,7 @@ header a {
 }
 
 .register-button {
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--purple);
 
     font-size: 14px;
@@ -233,7 +249,7 @@ header a {
 #quote-section {
     height: 392px;
 
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--purple);
 
     font-size: 22px;
@@ -274,16 +290,12 @@ header a {
     font-style: italic;
 }
 
-section > h1 {
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 40.22px;
-}
+/* TUTORIAL VIDEOS SECTION */
 
 #videos-section {
     text-align: center;
 
-    color: #071629;
+    color: var(--black);
 
     width: 1228px;
     height: 450px;
@@ -295,14 +307,12 @@ section > h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-#videos-section h2 {
-    margin: 0;
+    align-items: center;
 }
 #videos-block {
-    padding: 58px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+
     text-align: left;
 }
 .video-block {
@@ -320,8 +330,8 @@ section > h1 {
     margin-left: 0px;
     margin-bottom: 18px;
 }
-.video-block h3 {
-    color: #071629;
+.video-block h2 {
+    color: var(--black);
 
     font-weight: bold;
     font-size: 16px;
@@ -329,8 +339,9 @@ section > h1 {
 
     margin-bottom: 7.6px;
 }
-.video-block p {
-    color: #071629;
+.video-description {
+    color: var(--black);
+    opacity: 50.16%;
 
     height: 48px;
     margin-bottom: 13px;
@@ -339,19 +350,23 @@ section > h1 {
     font-size: 14px;
     line-height: 24px;
 }
+
 .author-block {
     display: flex;
     align-items: center;
 
-    margin-bottom: 14px;
+    margin-bottom: 6px;
 }
-.author-block h4 {
+
+.video-author-name, .rating-block p {
     color: var(--purple);
 
     font-weight: 600;
     font-size: 14px;
     line-height: 27px;
+}
 
+.video-author-name {
     margin-left: 13px;
 }
 
@@ -359,18 +374,26 @@ section > h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-right: 22px;
 }
 
-.rating-block span {
-    color: var(--purple);
-    font-weight: 600;
-    size: 14px;
-    line-height: 27px;
+.rating-block * {
+    margin: 0;
+    padding: 0;
+}
+
+.stars-rating-score {
+    width: 107px;
+    height: 15px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 #membership-section {
-    color: #FFFFFF;
-    background-color: #071629;
+    color: var(--white);
+    background-color: var(--black);
     text-align: center;
 
     height: 502px;
@@ -422,6 +445,8 @@ section > h1 {
     line-height: 26px;
 }
 
+/* FAQ SECTION */
+
 #FAQ-section {
     margin: auto;
     margin-top: 67px;
@@ -434,19 +459,25 @@ section > h1 {
     flex-direction: column;
     justify-content: space-between;
 
-    color: #071629;
+    color: var(--black);
 }
 
 #FAQ-section * {
     margin: 0;
 }
 
-#FAQ-section h2 {
+#FAQ-title {
     font-weight: 300;
     font-size: 60px;
     line-height: 75.42px;
 
     align-self: center;
+}
+
+#FAQ-content {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
 }
 
 .FAQ-row-block {
@@ -470,6 +501,8 @@ section > h1 {
 }
 
 .FAQ-answer {
+    opacity: 50.16%;
+
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -478,7 +511,7 @@ section > h1 {
 footer {
     display: flex;
     height: 249px;
-    background-color: #071629;
+    background-color: var(--black);
     justify-content: flex-end;
     flex-direction: column;
     padding: 0 10% 0 10%;
