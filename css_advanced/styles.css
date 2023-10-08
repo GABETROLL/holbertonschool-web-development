@@ -315,6 +315,8 @@ header a {
     align-items: center;
 }
 #videos-block {
+    background-color: white;
+
     display: flex;
     gap: 30px;
 
